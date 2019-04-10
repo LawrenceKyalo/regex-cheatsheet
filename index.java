@@ -20,3 +20,4 @@ regex = /\S/;  // matches any non-white space character
 /* specific characters */
 regex = /[aeiou]/; // matches any character in square brackets
 regex = /[ck]atherine/; // matches catherine or katherine
+regex = /[^aeiou]/; // matches anything except the characters in square brackets
