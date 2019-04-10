@@ -12,3 +12,4 @@ regex = /h.*llo/; // the "*" matches any character(s) zero or more times... matc
 /* shorthand character classes */
 regex = /\d/;  // matches any digit
 regex = /\D/;  // matches any non-digit
+regex = /\w/;  // matches any word character (a-z, A-Z, 0-9, _)
