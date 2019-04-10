@@ -1,4 +1,4 @@
-let regex;
+String regex;
 
 /* matching a specific string */
 regex = /hello/;
