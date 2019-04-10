@@ -24,3 +24,4 @@ regex = /[^aeiou]/; // matches anything except the characters in square brackets
 
 /* charaacter ranges */
 regex = /[a-z]/; // matches all lowercase letters
+regex = /[A-Z]/; // matches all uppercase letters
