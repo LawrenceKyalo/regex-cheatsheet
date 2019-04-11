@@ -6,3 +6,4 @@ regex = /hello/i;  //looks for the string between the forward slashes (case-inse
 regex = /hello/g;  //looks for multiple occurrences of string between the forward slashes...
 
 /* wildcards */
+regex = /h.llo/; // the "." matches any one character other than a new line character... matches "hello", "hallo" but not "h\nllo"
