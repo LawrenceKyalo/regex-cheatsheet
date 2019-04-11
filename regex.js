@@ -15,3 +15,4 @@ regex = /\D/;  // matches any non-digit
 regex = /\w/;  // matches any word character (a-z, A-Z, 0-9, _)
 regex = /\W/;  // matches any non-word character
 regex = /\s/;  // matches any white space character (\r (carriage return),\n (new line), \t (tab), \f (form feed))
+regex = /\S/;  // matches any non-white space character
