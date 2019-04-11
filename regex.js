@@ -23,4 +23,5 @@ regex = /[ck]atherine/; // matches catherine or katherine
 regex = /[^aeiou]/; // matches anything except the characters in square brackets
 
 /* charaacter ranges */
+regex = /[a-z]/; // matches all lowercase letters
 
