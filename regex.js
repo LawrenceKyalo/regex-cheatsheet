@@ -22,4 +22,5 @@ regex = /[aeiou]/; // matches any character in square brackets
 regex = /[ck]atherine/; // matches catherine or katherine
 regex = /[^aeiou]/; // matches anything except the characters in square brackets
 
+/* charaacter ranges */
 
