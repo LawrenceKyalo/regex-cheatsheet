@@ -13,3 +13,4 @@ regex = /h.*llo/; // the "*" matches any character(s) zero or more times... matc
 regex = /\d/;  // matches any digit
 regex = /\D/;  // matches any non-digit
 regex = /\w/;  // matches any word character (a-z, A-Z, 0-9, _)
+regex = /\W/;  // matches any non-word character
