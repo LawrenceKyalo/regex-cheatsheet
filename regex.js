@@ -29,4 +29,5 @@ regex = /[e-l]/; // matches lowercase letters e to l (inclusive)
 regex = /[F-P]/; // matches all uppercase letters F to P (inclusive)
 regex = /[0-9]/; // matches all digits
 regex = /[5-9]/; // matches any digit from 5 to 9 (inclusive)
+regex = /[a-zA-Z]/; // matches all lowercase and uppercase letters
 
