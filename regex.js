@@ -7,3 +7,4 @@ regex = /hello/g;  //looks for multiple occurrences of string between the forwar
 
 /* wildcards */
 regex = /h.llo/; // the "." matches any one character other than a new line character... matches "hello", "hallo" but not "h\nllo"
+regex = /h.*llo/; // the "*" matches any character(s) zero or more times... matches "hello", "heeeeeello", "hllo", "hwarwareallo"
