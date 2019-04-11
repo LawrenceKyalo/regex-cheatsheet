@@ -18,3 +18,5 @@ regex = /\s/;  // matches any white space character (\r (carriage return),\n (ne
 regex = /\S/;  // matches any non-white space character
 
 /* specific characters */
+regex = /[aeiou]/; // matches any character in square brackets
+
