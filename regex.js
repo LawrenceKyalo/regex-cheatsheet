@@ -10,3 +10,4 @@ regex = /h.llo/; // the "." matches any one character other than a new line char
 regex = /h.*llo/; // the "*" matches any character(s) zero or more times... matches "hello", "heeeeeello", "hllo", "hwarwareallo"
 
 /* shorthand character classes */
+regex = /\d/;  // matches any digit
