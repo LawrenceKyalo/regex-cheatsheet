@@ -35,3 +35,4 @@ regex = /[^a-zA-Z]/; // matches non-letters
 /* matching repetition using quantifiers */
 regex = /(hello){4}/; // matches "hellohellohellohello"
 regex = /hello{3}/; // matches "hellooo" and "helloooo" but not "helloo"
+regex = /\d{3}/; // matches 3 digits ("312", "122", "111", "12312321" but not "12")
