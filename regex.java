@@ -44,3 +44,4 @@ regex = /ab*c/; // matches zero or more repetitions of "b" (matches "abc", "abbb
 regex = /ab+c/; // matches one or more repetitions of "b" (matches "abc", "abbbbc", but not "ac")
 
 /* matching beginning and end items */
+regex = /^[A-Z]\w*/; // matches "H", "Hello", but not "hey"
