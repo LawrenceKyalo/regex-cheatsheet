@@ -50,3 +50,4 @@ regex = /\w*s$/; // matches "cats", "dogs", "avocados", but not "javascript"
 /* matching word boundaries 
 
 positions of word boundaries:
+1. before the first character in string (if first character is a word character)
