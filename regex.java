@@ -37,3 +37,4 @@ regex = /(hello){4}/; // matches "hellohellohellohello"
 regex = /hello{3}/; // matches "hellooo" and "helloooo" but not "helloo"
 regex = /\d{3}/; // matches 3 digits ("312", "122", "111", "12312321" but not "12")
 regex = /\d{3,7}/; // matches digits that occur between 3 and 7 times (inclusive)
+regex = /\d{3,}/; // matches digits that occur at least 3 times
