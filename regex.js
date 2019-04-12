@@ -40,3 +40,4 @@ regex = /\d{3,7}/; // matches digits that occur between 3 and 7 times (inclusive
 regex = /\d{3,}/; // matches digits that occur at least 3 times
 
 /* matching repetitions using star and plus */
+regex = /ab*c/; // matches zero or more repetitions of "b" (matches "abc", "abbbbc", "ac")
