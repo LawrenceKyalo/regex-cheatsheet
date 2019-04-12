@@ -46,3 +46,6 @@ regex = /ab+c/; // matches one or more repetitions of "b" (matches "abc", "abbbb
 /* matching beginning and end items */
 regex = /^[A-Z]\w*/; // matches "H", "Hello", but not "hey"
 regex = /\w*s$/; // matches "cats", "dogs", "avocados", but not "javascript"
+
+/* matching word boundaries 
+
