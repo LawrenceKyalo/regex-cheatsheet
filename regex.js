@@ -33,3 +33,4 @@ regex = /[a-zA-Z]/; // matches all lowercase and uppercase letters
 regex = /[^a-zA-Z]/; // matches non-letters
 
 /* matching repetition using quantifiers */
+regex = /(hello){4}/; // matches "hellohellohellohello"
