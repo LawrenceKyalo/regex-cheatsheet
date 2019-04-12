@@ -53,3 +53,4 @@ positions of word boundaries:
 1. before the first character in string (if first character is a word character)
 2. after the last character in the string, if the last character is a word character
 3. between two characters in string, where one is a word character and the other isn't */
+regex = /\bmeow\b/; // matches "hey meow lol", "hey:meow:lol", but not "heymeow lol"
