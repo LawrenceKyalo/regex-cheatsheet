@@ -42,3 +42,5 @@ regex = /\d{3,}/; // matches digits that occur at least 3 times
 /* matching repetitions using star and plus */
 regex = /ab*c/; // matches zero or more repetitions of "b" (matches "abc", "abbbbc", "ac")
 regex = /ab+c/; // matches one or more repetitions of "b" (matches "abc", "abbbbc", but not "ac")
+
+/* matching beginning and end items */
