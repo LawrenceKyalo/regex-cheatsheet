@@ -31,3 +31,5 @@ regex = /[0-9]/; // matches all digits
 regex = /[5-9]/; // matches any digit from 5 to 9 (inclusive)
 regex = /[a-zA-Z]/; // matches all lowercase and uppercase letters
 regex = /[^a-zA-Z]/; // matches non-letters
+
+/* matching repetition using quantifiers */
