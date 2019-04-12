@@ -49,3 +49,4 @@ regex = /\w*s$/; // matches "cats", "dogs", "avocados", but not "javascript"
 
 /* matching word boundaries 
 
+positions of word boundaries:
