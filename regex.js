@@ -34,3 +34,4 @@ regex = /[^a-zA-Z]/; // matches non-letters
 
 /* matching repetition using quantifiers */
 regex = /(hello){4}/; // matches "hellohellohellohello"
+regex = /hello{3}/; // matches "hellooo" and "helloooo" but not "helloo"
