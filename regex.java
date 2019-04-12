@@ -51,3 +51,4 @@ regex = /\w*s$/; // matches "cats", "dogs", "avocados", but not "javascript"
 
 positions of word boundaries:
 1. before the first character in string (if first character is a word character)
+2. after the last character in the string, if the last character is a word character
