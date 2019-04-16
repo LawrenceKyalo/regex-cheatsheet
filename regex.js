@@ -67,3 +67,4 @@ regex = /do (cats) like (taco)\? do \2 \1 like you\?/; // matches "do cats like 
 /* alternative matching */
 regex = /i like (tacos|boba|guacamole)\./; // matches "i like tacos.", "i like boba.", and "i like guacamole."
 
+/* forward reference (available in Perl, PHP, Java, Ruby, etc... commented out because this is a js file) */
