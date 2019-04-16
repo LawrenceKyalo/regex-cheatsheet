@@ -63,3 +63,5 @@ regex = /do (cats) like (taco)\? do \2 \1 like you\?/; // matches "do cats like 
 
 //branch reset group (available in Perl, PHP, R, Delphi... commented out because this is a js file)
 // regex = /(?|(cat)|(dog))\1/; // matches "catcat" and "dogdog"
+
+/* alternative matching */
