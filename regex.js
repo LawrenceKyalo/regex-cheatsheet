@@ -56,3 +56,4 @@ positions of word boundaries:
 regex = /\bmeow\b/; // matches "hey meow lol", "hey:meow:lol", but not "heymeow lol"
 
 /* groups */
+regex = /it is (ice )?cold outside/; // matches "it is ice cold outside" and "it is cold outside"
