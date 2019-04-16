@@ -71,3 +71,4 @@ regex = /i like (tacos|boba|guacamole)\./; // matches "i like tacos.", "i like b
 // regex = /(\2train|(choo))+/; // matches "choo", "choochoo", "chootrain", choochootrain", but not "train"
 
 /* lookaheads */
+regex = /z(?=a)/; // positive lookahead... matches the "z" before the "a" in pizza" but not the first "z"
