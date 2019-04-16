@@ -58,3 +58,4 @@ regex = /\bmeow\b/; // matches "hey meow lol", "hey:meow:lol", but not "heymeow 
 /* groups */
 regex = /it is (ice )?cold outside/; // matches "it is ice cold outside" and "it is cold outside"
 regex = /it is (?:ice )?cold outside/; // same as above except it is a non-capturing group
+regex = /do (cats) like taco \1/; // matches "do cats like taco cats"
