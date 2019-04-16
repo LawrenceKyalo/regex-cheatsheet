@@ -75,3 +75,4 @@ regex = /z(?=a)/; // positive lookahead... matches the "z" before the "a" in piz
 regex = /z(?!a)/; // negative lookahead... matches the first "z" but not the "z" before the "a"
 
 /* lookbehinds */
+regex = /(?<=[aeiou])\w/; // positive lookbehind... matches any word character that is preceded by a vowel
