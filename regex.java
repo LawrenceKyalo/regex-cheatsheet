@@ -85,3 +85,4 @@ regex.exec("hello"); // returns result array, null otherwise
 
 // greedy
 /".+"/.exec('a "witch" and her "broom" is one') // "witch" and her "broom"
+// lazy
