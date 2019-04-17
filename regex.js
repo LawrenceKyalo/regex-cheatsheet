@@ -81,3 +81,4 @@ regex = /(?<![aeiou])\w/; // negative lookbehind... matches any word character t
 /* some useful functions */
 regex.test("hello"); // returns true if found a match, false otherwise
 regex.exec("hello"); // returns result array, null otherwise
+"football".replace(/foot/,"basket"); // replaces matches with second argument
