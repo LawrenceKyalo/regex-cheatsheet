@@ -84,3 +84,4 @@ regex.exec("hello"); // returns result array, null otherwise
 "football".replace(/foot/,"basket"); // replaces matches with second argument
 
 // greedy
+/".+"/.exec('a "witch" and her "broom" is one') // "witch" and her "broom"
