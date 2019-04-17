@@ -77,3 +77,5 @@ regex = /z(?!a)/; // negative lookahead... matches the first "z" but not the "z"
 /* lookbehinds */
 regex = /(?<=[aeiou])\w/; // positive lookbehind... matches any word character that is preceded by a vowel
 regex = /(?<![aeiou])\w/; // negative lookbehind... matches any word character that is not preceded by a vowel
+
+/* some useful functions */
