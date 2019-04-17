@@ -79,3 +79,4 @@ regex = /(?<=[aeiou])\w/; // positive lookbehind... matches any word character t
 regex = /(?<![aeiou])\w/; // negative lookbehind... matches any word character that is not preceded by a vowel
 
 /* some useful functions */
+regex.test("hello"); // returns true if found a match, false otherwise
