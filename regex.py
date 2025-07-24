@@ -7,3 +7,9 @@ import re
 txt = "The rain in Spain"
 x = re.search("^The.*Spain$", txt)
 
+#Return a list of all matches of the pattern in the string:
+re.findall()
+
+#Return a Match object if there is a match anywhere in the string
+re.search()
+
